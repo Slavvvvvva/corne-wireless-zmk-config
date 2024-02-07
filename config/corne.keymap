@@ -40,10 +40,10 @@
 
         left {
             bindings = <
-&kp TAB    &kp Q  &kp W  &trans        &trans  &trans       &trans     &trans  &trans         &trans  &trans  &kp BACKSPACE
-&kp LCTRL  &kp A  &kp S  &trans        &trans  &trans       &trans     &trans  &trans         &trans  &trans  &trans
-&kp LSHFT  &kp Z  &kp X  &trans        &trans  &trans       &trans     &trans  &trans         &trans  &trans  &kp ESC
-                         &kp LEFT_GUI  &trans  &kp SPACE    &kp ENTER  &trans  &kp RIGHT_ALT
+&kp TAB    &kp Q  &kp W  &trans        &trans  &trans       &trans     &trans        &trans         &trans          &trans     &kp BACKSPACE
+&kp LCTRL  &kp A  &kp S  &trans        &trans  &trans       &trans     &kp LEFT_GUI  &kp LEFT_ALT   &kp LEFT_SHIFT  &kp RCTRL  &trans
+&kp LSHFT  &kp Z  &kp X  &trans        &trans  &trans       &trans     &trans        &trans         &trans          &trans     &kp ESC
+                         &kp LEFT_GUI  &trans  &kp SPACE    &kp ENTER  &trans        &kp RIGHT_ALT
             >;
         };
 
